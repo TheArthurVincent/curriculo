@@ -4,16 +4,11 @@ console.log("a");
 const competenciaInter = document.querySelectorAll(
   ".competencia-interpessoal-titulo"
 );
-
-console.log(competenciaInter[1].nextElementSibling);
-
-function mostrar(index) {
-  competenciaInter[index].nextElementSibling.classList.replace(
-    "inativo",
-    "ativo"
-  );
+function mostrarResposta() {
+  console.log(this.nextElementSibling.classList.toggle("ativo"));
+  console.log(this.nextElementSibling.classList.toggle("inativo"));
 }
 
-competenciaInter.forEach((competencia, posicao) => {
-  competencia.addEventListener("click", mostrar(posicao));
+competenciaInter.forEach((pergunta) => {
+  pergunta.addEventListener("click", mostrarResposta);
 });

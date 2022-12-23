@@ -9,9 +9,7 @@
   background-color: var(--color1);
   padding: 1rem;
   border-radius: 1rem;
-  display: grid;
-  grid-template-columns: 1fr auto auto;
-  justify-content: center;
+  display: flex;
   align-items: center;
   max-height: fit-content;
   gap: 1rem;
@@ -43,6 +41,7 @@
   margin-bottom: 1.5rem;
 }
 .competencia-interpessoal-titulo {
+  cursor: pointer;
   display: flex;
   /* background-color: green; */
   align-items: center;
