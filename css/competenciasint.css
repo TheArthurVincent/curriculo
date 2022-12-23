@@ -1,0 +1,74 @@
+:root {
+  --color1: #204d76;
+  --color2: #0c1c2a;
+  --color3: #fff;
+  --color4: #000;
+  --color5: #d3d3d3;
+}
+.competenciasint-container {
+  background-color: var(--color1);
+  padding: 1rem;
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  justify-content: center;
+  align-items: center;
+  max-height: fit-content;
+  gap: 1rem;
+  box-shadow: 0px 5px 10px 1px rgba(32, 77, 118, 0.5);
+}
+
+/* título da sessão */
+.competenciasint-title {
+  writing-mode: vertical-lr;
+  grid-column: 1;
+}
+
+.competenciasint-title h3 {
+  font-size: 3rem;
+  font-family: Fira Sans;
+  color: var(--color2);
+  transform: rotate(-180deg);
+  white-space: nowrap;
+  margin: 0;
+}
+
+/* cada competência */
+
+.competencias-content {
+  grid-column: 2;
+}
+.competencia-interpessoal {
+  /* background-color: yellow; */
+  margin-bottom: 1.5rem;
+}
+.competencia-interpessoal-titulo {
+  display: flex;
+  /* background-color: green; */
+  align-items: center;
+  gap: 1rem;
+  padding: 0rem;
+}
+
+.competencia-interpessoal-titulo::after {
+  content: "";
+  border-left: solid 15px var(--color5);
+  border-right: solid 15px transparent;
+  border-top: solid 15px transparent;
+  border-bottom: solid 15px transparent;
+  color: #fff;
+}
+
+.competencia-interpessoal-titulo .icone-competencia img {
+  /* background-color: blue; */
+  max-width: 4rem;
+}
+.competencia-interpessoal-titulo h6 {
+  /* background-color: red; */
+  color: var(--color5);
+  margin: 0;
+  font-size: 2rem;
+}
+.competencia-descricao {
+  color: var(--color3);
+}

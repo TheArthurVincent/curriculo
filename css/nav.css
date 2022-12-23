@@ -1,0 +1,42 @@
+:root {
+  --color1: #204d76;
+  --color2: #0c1c2a;
+  --color3: #fff;
+  --color4: #000;
+  --color5: #d3d3d3;
+}
+nav {
+  white-space: nowrap;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+nav a {
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0.8rem;
+  background-color: var(--color3);
+  border-radius: 1rem;
+  margin: 1rem;
+  color: var(--color1);
+  text-align: center;
+  border: solid 1px var(--color3);
+}
+nav a:hover {
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+
+  border: solid 1px var(--color1);
+}
+
+@media (max-width: 1200px) {
+  nav {
+    gap: 0.1rem;
+    color: var(--color5);
+    text-align: center;
+    border: solid 1px var(--color3);
+  }
+  nav a {
+    margin: 0.5rem;
+  }
+} ;
