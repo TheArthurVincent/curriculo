@@ -70,4 +70,18 @@
 }
 .competencia-descricao {
   color: var(--color3);
+  animation: experiencein forwards 0.3s;
+  transition: 0.5s;
+}
+
+@keyframes experiencein {
+  from {
+    margin-top: 0.5%;
+    opacity: 0;
+  }
+
+  to {
+    opacity: 100%;
+    margin-top: 0%;
+  }
 }
