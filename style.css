@@ -2,6 +2,7 @@
 @import url(/css/nav.css);
 @import url(/css/experiencia.css);
 @import url(/css/competenciasint.css);
+@import url(/css/competenciastec.css);
 body {
   font-family: Lato;
   max-width: 1200px;
