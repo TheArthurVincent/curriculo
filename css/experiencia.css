@@ -175,3 +175,47 @@
   white-space: nowrap;
   margin: 0;
 }
+
+@media (max-width: 1270px) {
+  .experiencia-container .imagens {
+    height: 550px;
+    width: 15rem;
+  }
+
+  .experiencia-container {
+    background-color: var(--color3);
+    grid-template-rows: auto auto;
+    grid-template-columns: auto 1fr;
+    gap: 0rem;
+  }
+  .experiencia-experiencia {
+    writing-mode: horizontal-tb;
+    grid-row: 1;
+  }
+  .experiencia-experiencia h3 {
+    font-size: 3rem;
+    transform: rotate(0deg);
+  }
+}
+
+@media (max-width: 920px) {
+  .experiencia-container .imagens {
+    height: 550px;
+    width: 15rem;
+  }
+
+  .experiencia-container {
+    background-color: var(--color3);
+    grid-template-rows: auto auto;
+    grid-template-columns: auto 1fr;
+    gap: 0rem;
+  }
+  .experiencia-experiencia {
+    writing-mode: horizontal-tb;
+    grid-row: 1;
+  }
+  .experiencia-experiencia h3 {
+    font-size: 3rem;
+    transform: rotate(0deg);
+  }
+} ;
