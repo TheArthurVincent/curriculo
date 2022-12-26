@@ -1,5 +1,4 @@
 export default function initCInter() {}
-console.log("a");
 
 const competenciaInter = document.querySelectorAll(
   ".competencia-interpessoal-titulo"
