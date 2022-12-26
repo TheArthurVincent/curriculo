@@ -94,6 +94,10 @@
   transition: 0.3s;
 }
 
+.ano-experiencia {
+  color: var(--color2);
+}
+
 @keyframes experiencein {
   from {
     margin-left: 0.5%;
