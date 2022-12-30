@@ -1,6 +1,6 @@
 export default function initExperiencia() {}
 
-let imagens = document.querySelectorAll("li");
+let imagens = document.querySelectorAll("#experiencia li");
 let experiencias = document.querySelectorAll(".aexperiencia");
 
 // anima números

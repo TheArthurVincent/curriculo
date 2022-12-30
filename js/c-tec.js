@@ -1,8 +1,9 @@
 export default function CTec() {}
 
-let icones = document.querySelectorAll(".iconecomptec");
+const icones = document.querySelectorAll(".iconecomptec");
+// console.log(icones);
 
-let descricoesCompTec = document.querySelectorAll(
+const descricoesCompTec = document.querySelectorAll(
   ".competencias-tecnicas-container article"
 );
 
@@ -14,7 +15,7 @@ function mostrar(position) {
 }
 
 icones.forEach((icone, posicaoDoicone) => {
-  icone.addEventListener("mouseover", () => {
+  icone.addEventListener("click", () => {
     mostrar(posicaoDoicone);
   });
 });
