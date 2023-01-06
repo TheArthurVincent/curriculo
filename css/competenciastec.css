@@ -4,6 +4,8 @@
   --color3: #fff;
   --color4: #000;
   --color5: #d3d3d3;
+
+  --font: Arial;
 }
 
 /* container */
@@ -76,7 +78,7 @@
 
 .acompetencia h4 {
   color: var(--color1);
-  font-family: Fira Sans;
+  font-family: var(--font);
   font-size: 2rem;
   padding: 0.5rem;
   margin: 0;

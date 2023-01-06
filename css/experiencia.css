@@ -4,6 +4,7 @@
   --color3: #fff;
   --color4: #000;
   --color5: #d3d3d3;
+  --font: Arial;
 }
 
 /* container */
@@ -112,7 +113,7 @@
 
 .experiencia-container .aexperiencia h4 {
   font-size: 1.5rem;
-  font-family: Fira Sans;
+  font-family: var(--font);
   color: var(--color1);
   margin: 0;
   margin-bottom: 0.5rem;
@@ -169,7 +170,7 @@
 }
 .experiencia-experiencia h3 {
   font-size: 3rem;
-  font-family: Fira Sans;
+  font-family: var(--font);
   color: var(--color5);
   transform: rotate(-180deg);
   white-space: nowrap;

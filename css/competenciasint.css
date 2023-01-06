@@ -4,6 +4,7 @@
   --color3: #fff;
   --color4: #000;
   --color5: #d3d3d3;
+  --font: Arial;
 }
 .competenciasint-container {
   background-color: var(--color1);
@@ -25,7 +26,7 @@
 
 .competenciasint-title h3 {
   font-size: 3rem;
-  font-family: Fira Sans;
+  font-family: var(--font);
   color: var(--color2);
   transform: rotate(-180deg);
   white-space: nowrap;

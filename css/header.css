@@ -4,6 +4,7 @@
   --color3: #fff;
   --color4: #000;
   --color5: #d3d3d3;
+  --font: Arial;
 }
 header {
   margin: 1rem 0rem;
@@ -11,7 +12,7 @@ header {
 
 h1 {
   color: var(--color2);
-  font-family: "Fira Sans", Pt Sans, Arial;
+  font-family: var(--font);
   margin: 0;
   margin-top: 4rem;
   text-align: center;
@@ -57,7 +58,7 @@ h2 {
 
 .sobremim-sobremim h3 {
   font-size: 3rem;
-  font-family: Fira Sans;
+  font-family: var(--font);
   color: var(--color2);
   transform: rotate(-180deg);
   white-space: nowrap;
